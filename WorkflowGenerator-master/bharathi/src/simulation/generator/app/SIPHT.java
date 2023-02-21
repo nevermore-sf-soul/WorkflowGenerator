@@ -433,7 +433,9 @@ class FFNParse extends AppJob {
         input(SIPHT.CODE + ".ptt", sipht.generateLong("CODE.ptt"));
         input("Seq_" + SIPHT.CODE, sipht.generateLong("Seq_CODE"));
         addAnnotation("runtime", String.format("%.4f", sipht.generateDouble("FFN_parse") * sipht.getRuntimeFactor()));
-        addAnnotation("privacylevel",Misc.randomprivacy_level());addAnnotation("ordernums", String.valueOf(Distribution.getUniformDistribution(0.4E3,2.4E3).getLong()));
+        addAnnotation("privacylevel",Misc.randomprivacy_level());
+        addAnnotation("ordernums", String.valueOf(Distribution.getUniformDistribution(0.4E3,2.4E3).getLong()));
+
     }
 
     public void addChild(AppJob child) {

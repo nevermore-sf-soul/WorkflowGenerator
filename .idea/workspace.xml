@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1c2b0b5-73bb-4572-9a1c-815c2388e89e" name="Changes" comment="13">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkflowGenerator-master/bharathi/src/simulation/generator/RunAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/WorkflowGenerator-master/bharathi/src/simulation/generator/RunAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkflowGenerator-master/bharathi/src/simulation/generator/app/SIPHT.java" beforeDir="false" afterPath="$PROJECT_DIR$/WorkflowGenerator-master/bharathi/src/simulation/generator/app/SIPHT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +68,7 @@
       <workItem from="1676785349214" duration="7114000" />
       <workItem from="1676897432181" duration="678000" />
       <workItem from="1676898199684" duration="386000" />
+      <workItem from="1676942382845" duration="3591000" />
     </task>
     <task id="LOCAL-00001" summary="13">
       <created>1676390433821</created>

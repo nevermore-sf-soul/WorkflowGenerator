@@ -22,29 +22,30 @@ public class RunAll {
     }
     
     public static void main(String[] args) throws Exception {
-        run(new CyberShake(), new File("CyberShake_50.xml"), "-n", "50");
-        run(new CyberShake(), new File("CyberShake_100.xml"), "-n", "100");
-        run(new CyberShake(), new File("CyberShake_200.xml"), "-n", "200");
-        run(new CyberShake(), new File("CyberShake_300.xml"), "-n", "300");
+        String s="F:/workflowsim/graduate/config/dax/";
+        run(new CyberShake(), new File(s+"CyberShake_50.xml"), "-n", "50");
+        run(new CyberShake(), new File(s+"CyberShake_100.xml"), "-n", "100");
+        run(new CyberShake(), new File(s+"CyberShake_200.xml"), "-n", "200");
+        run(new CyberShake(), new File(s+"CyberShake_300.xml"), "-n", "300");
 
-        run(new Montage(), new File("Montage_50.xml"), "-n", "50");
-        run(new Montage(), new File("Montage_100.xml"), "-n", "100");
-        run(new Montage(), new File("Montage_200.xml"), "-n", "200");
-        run(new Montage(), new File("Montage_300.xml"), "-n", "300");
+        run(new Montage(), new File(s+"Montage_50.xml"), "-n", "50");
+        run(new Montage(), new File(s+"Montage_100.xml"), "-n", "100");
+        run(new Montage(), new File(s+"Montage_200.xml"), "-n", "200");
+        run(new Montage(), new File(s+"Montage_300.xml"), "-n", "300");
 
-        run(new Genome(), new File("Epigenomics_50.xml"), "-n", "50");
-        run(new Genome(), new File("Epigenomics_100.xml"), "-n", "100");
-        run(new Genome(), new File("Epigenomics_200.xml"), "-n", "200");
-        run(new Genome(), new File("Epigenomics_300.xml"), "-n", "300");
+        run(new Genome(), new File(s+"Epigenomics_50.xml"), "-n", "50");
+        run(new Genome(), new File(s+"Epigenomics_100.xml"), "-n", "100");
+        run(new Genome(), new File(s+"Epigenomics_200.xml"), "-n", "200");
+        run(new Genome(), new File(s+"Epigenomics_300.xml"), "-n", "300");
 
-        run(new LIGO(), new File("Inspiral_50.xml"), "-n", "50");
-        run(new LIGO(), new File("Inspiral_100.xml"), "-n", "100");
-        run(new LIGO(), new File("Inspiral_200.xml"), "-n", "200");
-        run(new LIGO(), new File("Inspiral_300.xml"), "-n", "300");
+        run(new LIGO(), new File(s+"Inspiral_50.xml"), "-n", "50");
+        run(new LIGO(), new File(s+"Inspiral_100.xml"), "-n", "100");
+        run(new LIGO(), new File(s+"Inspiral_200.xml"), "-n", "200");
+        run(new LIGO(), new File(s+"Inspiral_300.xml"), "-n", "300");
 
-        run(new SIPHT(), new File("Sipht_50.xml"), "-n", "50");
-        run(new SIPHT(), new File("Sipht_100.xml"), "-n", "100");
-        run(new SIPHT(), new File("Sipht_200.xml"), "-n", "200");
-        run(new SIPHT(), new File("Sipht_300.xml"), "-n", "300");
+        run(new SIPHT(), new File(s+"Sipht_50.xml"), "-n", "50");
+        run(new SIPHT(), new File(s+"Sipht_100.xml"), "-n", "100");
+        run(new SIPHT(), new File(s+"Sipht_200.xml"), "-n", "200");
+        run(new SIPHT(), new File(s+"Sipht_300.xml"), "-n", "300");
     }
 }
