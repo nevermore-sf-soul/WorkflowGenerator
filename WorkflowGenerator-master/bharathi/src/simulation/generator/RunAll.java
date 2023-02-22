@@ -22,7 +22,7 @@ public class RunAll {
     }
     
     public static void main(String[] args) throws Exception {
-        String s="F:/workflowsim/graduate/config/dax/";
+        String s="F:/WorkflowSim-1.0-master/config/dax/";
         run(new CyberShake(), new File(s+"CyberShake_50.xml"), "-n", "50");
         run(new CyberShake(), new File(s+"CyberShake_100.xml"), "-n", "100");
         run(new CyberShake(), new File(s+"CyberShake_200.xml"), "-n", "200");
