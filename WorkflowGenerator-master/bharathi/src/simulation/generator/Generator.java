@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Generator {
-    Generator()
+    public Generator()
     {
 
     }
@@ -40,10 +40,5 @@ public class Generator {
     public  void run(Application app, File outfile, String... args) throws Exception {
         app.generateWorkflow(args);
         app.printWorkflow(new FileOutputStream(outfile));
-    }
-
-    public static void main(String[] args) throws Exception{
-        Generator g=new Generator();
-        g.execute("F:/WorkflowSim-1.0-master/config/dax/"+"Montage_500.xml",500,new double[]{0.1,0.5,0.4},"Montage");
     }
 }

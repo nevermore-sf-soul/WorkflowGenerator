@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WorkflowGenerator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WorkflowGenerator_jar</output-path>
+    <root id="archive" name="WorkflowGenerator-master.jar">
+      <element id="module-output" name="WorkflowGenerator-master" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/WorkflowGenerator-master/bharathi/lib/commons-math-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/WorkflowGenerator-master/bharathi/lib/java-getopt-1.0.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/WorkflowGenerator-master/bharathi/lib/commons-logging-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/WorkflowGenerator-master/bharathi/lib/pegasus.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

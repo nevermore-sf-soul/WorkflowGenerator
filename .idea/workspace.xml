@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="WorkflowGenerator:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a1c2b0b5-73bb-4572-9a1c-815c2388e89e" name="Changes" comment="13">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/WorkflowGenerator_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkflowGenerator-master/bharathi/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WorkflowGenerator-master/simulation/generator/util/Misc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WorkflowGenerator-master/simulation/generator/util/Misc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WorkflowGenerator-master/simulation/generator/util/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WorkflowGenerator-master/simulation/generator/util/WeightRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkflowGenerator-master/bharathi/src/simulation/generator/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/WorkflowGenerator-master/bharathi/src/simulation/generator/Generator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +39,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.preview.features.used" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -96,7 +102,8 @@
       <workItem from="1676942382845" duration="3591000" />
       <workItem from="1677044350312" duration="4087000" />
       <workItem from="1677314574229" duration="1857000" />
-      <workItem from="1677322271403" duration="719000" />
+      <workItem from="1677322271403" duration="2324000" />
+      <workItem from="1677390046476" duration="662000" />
     </task>
     <task id="LOCAL-00001" summary="13">
       <created>1676390433821</created>
@@ -161,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677315840135</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="13">
+      <created>1677328499321</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677328499321</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
